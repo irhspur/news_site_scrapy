@@ -4,7 +4,7 @@ from collections import Counter
 import sys
 import re
 
-file = open(r"world.csv", "r")
+file = open(r"ent_all.csv", "r")
 
 
 wordcount = Counter(file.read().split())
